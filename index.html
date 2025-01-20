@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="captcha-container">
+        <div class="captcha-header">
+            <img src="logo.png" alt="Company Logo" class="captcha-logo">
+            <h2>Solve the math problem</h2>
+            <p>You need to confirm you are human</p>
+        </div>
+        <div class="captcha-body">
+            <p id="captcha-question" class="captcha-question"></p>
+            <input type="text" id="captcha-input" class="captcha-input" placeholder="Your Answer">
+            <input type="hidden" id="captcha-answer">
+            <button id="submit-btn" class="captcha-submit-btn">Verify</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
